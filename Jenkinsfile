@@ -7,8 +7,8 @@ pipeline {
          }
       }
       stage('审查') {
-         steps22 {
-            sleep 60
+         steps {
+            //sleep 60
             python Hello.py
          }
       }
