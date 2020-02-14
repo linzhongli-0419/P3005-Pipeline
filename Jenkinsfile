@@ -9,7 +9,7 @@ pipeline {
       stage('审查') {
          steps {
             //sleep 60
-            python Hello.py
+            echo '审查'
          }
       stage('DevOps') {
          steps {
