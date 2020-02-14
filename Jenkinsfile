@@ -13,7 +13,6 @@ pipeline {
          }
       stage('DevOps') {
          steps {
-            //sleep 60
             echo 'ending........'
          }
       }
