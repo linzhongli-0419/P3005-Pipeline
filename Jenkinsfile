@@ -14,7 +14,6 @@ pipeline {
       stage('DevOps') {
          steps {
             echo 'ending........'
-            echo 'end DevOps........'
          }
       }
    }
