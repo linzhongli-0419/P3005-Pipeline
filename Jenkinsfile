@@ -11,6 +11,11 @@ pipeline {
             //sleep 60
             python Hello.py
          }
+      stage('DevOps') {
+         steps {
+            //sleep 60
+            echo 'ending........'
+         }
       }
    }
 }
