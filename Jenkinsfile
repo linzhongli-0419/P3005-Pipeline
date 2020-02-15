@@ -11,6 +11,7 @@ pipeline {
             //sleep 60
             echo '审查'
          }
+       }
       stage('DevOps') {
          steps {
             echo 'ending........'
