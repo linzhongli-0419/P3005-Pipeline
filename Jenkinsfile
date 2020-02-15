@@ -10,6 +10,7 @@ pipeline {
          steps {
             sleep 10
             echo '审查'
+            echo 'test...'
          }
       }
       stage('DevOps') {
