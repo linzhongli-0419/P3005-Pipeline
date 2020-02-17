@@ -8,14 +8,12 @@ pipeline {
       }
       stage('审查') {
          steps {
-            sleep 10
-            echo '审查'
+            sleep 60
             echo 'test...'
          }
       }
       stage('DevOps') {
          steps {
-            echo 'ending........'
             echo 'end DevOps....'
          }
       }
