@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/TestDveOps.iml" filepath="$PROJECT_DIR$/.idea/TestDveOps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" filepath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" />
     </modules>
   </component>
 </project>
