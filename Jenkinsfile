@@ -3,13 +3,13 @@ pipeline {
     stages {
        stage('Build') {
             steps {
-              echo '编译'
+              echo 'This is newmaster2.........'
               //sleep 10
             }
         }
         stage('Deploy') {
             steps {
-               echo 'Deploying....'
+               echo 'This is newmaster2.........'
             }
         }
     }
