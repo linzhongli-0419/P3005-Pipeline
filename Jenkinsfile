@@ -7,6 +7,11 @@ pipeline {
               //sleep 10
             }
         }
+        stage('Test') {
+            steps {
+               echo 'This is newmaster2.........'
+            }
+        }
         stage('Deploy') {
             steps {
                echo 'This is newmaster2.........'
