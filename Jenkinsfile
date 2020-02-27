@@ -10,6 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                echo 'This is newmaster2.........'
+               echo 'This wwwwwwww'
             }
         }
         stage('Deploy') {
