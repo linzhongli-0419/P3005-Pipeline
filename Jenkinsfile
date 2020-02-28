@@ -13,7 +13,7 @@ pipeline {
                echo 'T.......'
             }
         }
-        stage('Deploy') {
+        stage('Deploy结束') {
             steps {
                echo 'This is newmaster2.........'
             }
