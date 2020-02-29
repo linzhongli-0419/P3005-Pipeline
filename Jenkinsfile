@@ -10,12 +10,13 @@ pipeline {
         stage('代码审查') {
             steps {
                echo 'This is Newmaster2.........'
-               echo 'T.......'
+              sleep 10
             }
         }
         stage('Deploy结束') {
             steps {
-               echo 'This is Newmaster2.........'
+               sleep 10
+               sh 'ddddddd'
             }
         }
     }
