@@ -1,23 +1,31 @@
 pipeline {
-    agent any
-    stages {
-       stage('代码提交') {
-            steps {
-              echo 'This is Newmaster2.........'
-              sleep 20
+   agent any
+   stages {
+      stage('master') {
+         steps{
+            script{
+               if (env.GIT_BRANCH == 'origin/master'){
+                  echo "run master......."
+               }
             }
-        }
-        stage('代码审查') {
-            steps {
-               echo 'This is Newmaster2.........'
-              sleep 10
+         }
+      }
+
+      stage('branch') {
+         when { branch 'master' }
+         steps{
+            echo "run master......."
+         }
+      }
+
+      stage('test') {
+         steps{
+            script{
+               if (env.GIT_BRANCH == 'origin/test'){
+                  echo "run test..."
+               }
             }
-        }
-        stage('Deploy结束') {
-            steps {
-               sleep 10
-               sh 'ddddddd'
-            }
-        }
-    }
+         }
+      }
+   }
 }
