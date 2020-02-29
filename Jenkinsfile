@@ -1,20 +1,20 @@
 pipeline {
    agent any
    stages {
-      stage('master') {
+      stage('branch-Newmaster2') {
          steps{
             script{
-               if (env.GIT_BRANCH == 'origin/master'){
-                  echo "run master......."
+               if (env.GIT_BRANCH == 'origin/Newmaster2'){
+                  echo "if run Newmaster2......."
                }
             }
          }
       }
 
-      stage('branch') {
-         when { branch 'master' }
+      stage('branch-master') {
+         when { branch 'Newmaster2' }
          steps{
-            echo "run master......."
+            echo "when run master......."
          }
       }
 
