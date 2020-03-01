@@ -8,8 +8,7 @@ pipeline {
       }
       stage('单元测试0010'){
          steps {
-           cho '单元测试ing....'
-           echo '单元测试完成.....'
+           c '单元测试ing....'
          }
       }
       stage('Super long name case display, view ONES Devops display juhs') {
