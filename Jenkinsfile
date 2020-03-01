@@ -6,6 +6,51 @@ pipeline {
             echo 'Hello World'
          }
       }
+            stage('Super long name case display view ONES Devops display ces12') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+            stage('Super long name case display view ONES Devops display ces12') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+            stage('Super long name case display view ONES Devops display ces12') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+            stage('Super long name case display view ONES Devops display ces12') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+            stage('Super long name case display view ONES Devops display ces12') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+            stage('Super long name case display view ONES Devops display ces12') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+            stage('Super long name case display view ONES Devops display ces12') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+            stage('Super long name case display view ONES Devops display ces12') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+      stage('Super long name case display view ONES Devops display ces12') {
+         steps {
+            echo 'Hello World'
+         }
+      }
       stage('Example when') {
          when {
             branch 'Newmaster2'
