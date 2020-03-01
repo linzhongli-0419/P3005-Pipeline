@@ -26,11 +26,76 @@ pipeline {
             echo 'test004'
          }
       }
-      stage('Example test005') {
-         steps {
-            echo 'test005'
-         }
-      }
+       stage('提交测试') {
+          parallel {
+             stage('代码分析'){
+                steps {
+                   echo '代码分析ing...'
+                   echo '代码分析完成...'
+                  }
+              }
+             stage('单元测试001'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+             stage('单元测试002'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+             stage('单元测试003'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+             stage('单元测试004'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+             stage('单元测试005'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+             stage('单元测试006'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+             stage('单元测试007'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+             stage('单元测试008'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+             stage('单元测试009'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+             stage('单元测试0010'){
+                steps {
+                   echo '单元测试ing....'
+                   echo '单元测试完成.....'
+                   }
+               }
+           }
+       }
       stage('Example test006') {
          steps {
             echo 'test006'
