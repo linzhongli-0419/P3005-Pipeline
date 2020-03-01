@@ -13,7 +13,7 @@ pipeline {
       }
 
       stage('branch-master') {
-         when { branch 'origin/Newmaster2 }
+         when { branch 'origin/Newmaster2' }
          steps{
             echo "when run master......."
          }
