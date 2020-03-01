@@ -14,7 +14,7 @@ pipeline {
             echo "执行该步骤steps"
          }
       }
-      stage('Super long name case display, view ONES Devops display Q K') {
+      stage('Super long name case display, view ONES Devops display juhs') {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
