@@ -8,7 +8,7 @@ pipeline {
       }
       stage('Example when') {
          when {
-            branch 'origin/Newmaster2'
+            branch 'refs/remotes/origin/Newmaster2'
          }
          steps{
             echo "执行该步骤steps"
