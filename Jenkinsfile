@@ -8,7 +8,7 @@ pipeline {
       }
       stage('Example when') {
          when {
-            branch 'master'
+            branch 'origin/master'
          }
          steps{
             echo "when run master......."
