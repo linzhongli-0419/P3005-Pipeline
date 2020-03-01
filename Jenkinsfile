@@ -5,7 +5,7 @@ pipeline {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
-                  sleep 120
+                  sleep 1
                   echo "This is Newmaster2......."
                }
             }
@@ -13,7 +13,7 @@ pipeline {
       }
 
       stage('branch-master') {
-         when { branch 'Newmaster2' }
+         when { branch 'Newmaster211' }
          steps{
             echo "when run master......."
          }
@@ -23,7 +23,7 @@ pipeline {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/test'){
-                  sleep 10
+                  sleep 1
                   echo "run test..."
                }
             }
