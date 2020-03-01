@@ -1,24 +1,19 @@
 pipeline {
    agent any
    stages {
-      stage('branch-Newmaster2') {
-         steps{
-            script{
-               if (env.GIT_BRANCH == 'origin/Newmaster2'){
-                  sleep 120
-                  echo "This is Newmaster2......."
-               }
-            }
+      stage('Example-ONES') {
+         steps {
+            echo 'Hello World'
          }
       }
-
-      stage('branch-master') {
-         when { branch 'origin/Newmaster2' }
+      stage('Example when') {
+         when {
+            branch 'Newmaster2'
+         }
          steps{
             echo "when run master......."
          }
       }
-
       stage('test') {
          steps{
             script{
