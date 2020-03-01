@@ -6,49 +6,44 @@ pipeline {
             echo 'Hello World'
          }
       }
-            stage('Super long name case display view ONES Devops display ces12') {
+      stage('Example test001') {
          steps {
-            echo 'Hello World'
+            echo 'test001'
          }
       }
-            stage('Super long name case display view ONES Devops display ces12') {
+      stage('Example test002') {
          steps {
-            echo 'Hello World'
+            echo 'test002'
          }
       }
-            stage('Super long name case display view ONES Devops display ces12') {
+      stage('Example test003') {
          steps {
-            echo 'Hello World'
+            echo 'test003'
          }
       }
-            stage('Super long name case display view ONES Devops display ces12') {
+      stage('Example test004') {
          steps {
-            echo 'Hello World'
+            echo 'test004'
          }
       }
-            stage('Super long name case display view ONES Devops display ces12') {
+      stage('Example test005') {
          steps {
-            echo 'Hello World'
+            echo 'test005'
          }
       }
-            stage('Super long name case display view ONES Devops display ces12') {
+      stage('Example test006') {
          steps {
-            echo 'Hello World'
+            echo 'test006'
          }
       }
-            stage('Super long name case display view ONES Devops display ces12') {
+      stage('Example test007') {
          steps {
-            echo 'Hello World'
+            echo 'test007'
          }
       }
-            stage('Super long name case display view ONES Devops display ces12') {
+      stage('Example test008') {
          steps {
-            echo 'Hello World'
-         }
-      }
-      stage('Super long name case display view ONES Devops display ces12') {
-         steps {
-            echo 'Hello World'
+            echo 'test008'
          }
       }
       stage('Example when') {
