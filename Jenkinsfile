@@ -11,7 +11,7 @@ pipeline {
             branch 'origin/master'
          }
          steps{
-            echo "when run master......."
+            echo "执行该步骤steps"
          }
       }
       stage('test') {
