@@ -5,7 +5,7 @@ pipeline {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
-                  sleep 1
+                  sleep 120
                   echo "This is Newmaster2......."
                }
             }
