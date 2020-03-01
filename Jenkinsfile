@@ -6,7 +6,7 @@ pipeline {
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   sleep 120
-                  echo "run Newmaster2......."
+                  echo "This is Newmaster2......."
                }
             }
          }
