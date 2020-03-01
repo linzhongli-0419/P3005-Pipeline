@@ -8,7 +8,7 @@ pipeline {
       }
       stage('Example when') {
          when {
-            branch 'origin/master'
+            branch 'origin/Newmaster2'
          }
          steps{
             echo "执行该步骤steps"
@@ -17,7 +17,7 @@ pipeline {
       stage('test') {
          steps{
             script{
-               if (env.GIT_BRANCH == 'origin/test'){
+               if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   sleep 1
                   echo "run test..."
                }
