@@ -1,7 +1,7 @@
 pipeline {
    agent any
    stages {
-      stage('Example-ONES') {
+      stage('Super long name case display, view ONES Devops display Q K') {
          steps {
             echo 'Hello World'
          }
@@ -14,7 +14,7 @@ pipeline {
             echo "执行该步骤steps"
          }
       }
-      stage('Example if') {
+      stage('Super long name case display, view ONES Devops display Q K') {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
