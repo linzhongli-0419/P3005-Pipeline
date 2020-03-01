@@ -14,7 +14,6 @@ pipeline {
             echo "执行该步骤steps"
          }
       }
-      }
       stage('Example if') {
          steps{
             script{
