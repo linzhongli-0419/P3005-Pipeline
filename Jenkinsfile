@@ -5,6 +5,7 @@ pipeline {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
+                  sleep 20
                   echo "if run Newmaster2......."
                }
             }
@@ -22,6 +23,7 @@ pipeline {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/test'){
+                  sleep 20
                   echo "run test..."
                }
             }
