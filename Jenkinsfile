@@ -14,7 +14,7 @@ pipeline {
             echo "执行该步骤steps"
          }
       }
-      stage('test') {
+      stage('Example if') {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
