@@ -19,7 +19,6 @@ pipeline {
             sh "mkdir ONES-Devops3"
             sh "ls"
             sh "ls -l"
-            sh "rm -rf ONES-Devops"
             sh "rm -rf ONES-Devops1"
             sh "rm -rf ONES-Devops3"
             sh "rm -rf filename.txt"
