@@ -3,9 +3,11 @@ pipeline {
    stages {
       stage('Super long name case display view ONES Devops display ces12') {
          steps {
-            echo 'Hello World'
+            echo 'Build runing......'
             sh "pwd"
             sh "mkdir ONES-Devops"
+            sh 'ls'
+            sleep 1
          }
       }
       stage('单元测试0010'){
@@ -22,7 +24,7 @@ pipeline {
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   sleep 1
-                  echo "run test..."
+                  echo "end runing......"
                }
             }
          }
