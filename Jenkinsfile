@@ -19,7 +19,7 @@ pipeline {
             sh "mkdir ONES-Devops2"
             sh "ls"
             sh "ls -l"
-            echo "打印长度。。。"
+            echo "打印长度。。。."
             echo "打印长度。。。"
             echo "打印长度。。。"
             echo "打印长度。。。"
