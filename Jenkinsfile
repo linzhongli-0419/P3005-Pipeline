@@ -4,6 +4,8 @@ pipeline {
       stage('Super long name case display view ONES Devops display ces12') {
          steps {
             echo 'Hello World'
+            sh "pwd"
+            sh "mkdir ONES-Devops"
          }
       }
       stage('单元测试0010'){
