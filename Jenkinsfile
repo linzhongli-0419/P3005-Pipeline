@@ -32,6 +32,10 @@ pipeline {
         }
       }
     }
+<<<<<<< HEAD
+=======
+  
+>>>>>>> ffe763bcb19cdc0cc8f2d2b33f904209b71b5a55
     stage('编译,打包') {
        steps {
           echo 'Build runing......'
@@ -62,4 +66,9 @@ pipeline {
       sh 'pwd'
     }
   }
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> ffe763bcb19cdc0cc8f2d2b33f904209b71b5a55
