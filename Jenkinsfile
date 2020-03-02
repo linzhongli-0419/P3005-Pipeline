@@ -1,11 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'ones-api-env'
-      args '-v /srv/project-govendor-cache:/go/.cache'
-    }
-  }
-
+  agent any
   options {
     timeout(time: 20, unit: 'MINUTES')
     disableConcurrentBuilds()
@@ -37,25 +31,14 @@ pipeline {
     stage('参数检查') {
       steps {
         script {
-          if (env.BRANCH_NAME == "master"){
-            //检测是 PR, 如“Merge pull request #2328 from BangWork/F9016)“, 则自动编译脚本 migrate-F9016
-            def pr_name = sh (script: 'git log -1 --pretty=format:"%s"| grep "Merge pull request" | awk -F "/" \'{print $2}\'', returnStdout: true).trim()
-            env.MIGRATION_NAME = pr_name
-          }else{
-            env.MIGRATION_NAME = env.BRANCH_NAME
-          }
-          sh '''
-          echo "MIGRATION_NAME: $MIGRATION_NAME"
-          #如果没有 BRANCH_NAME 变量中止构建
-          [[ "${BRANCH_NAME}" == "" ]] && echo "empty BRANCH_NAME" && exit 1 || true
-          '''
+          if (env.BRANCH_NAME == "Newmaster"){
+          sh "ps -a"
+         }
         }
       }
     }
-
+  }
     stage('编译,打包') {
-      options {
-        retry(1)
       }
       steps {
         withCredentials(
