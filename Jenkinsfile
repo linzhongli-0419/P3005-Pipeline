@@ -41,7 +41,7 @@ pipeline {
       stage('单元测试0010'){
          steps {
            echo '单元测试ing....'
-           sleep 60
+           sleep 2
            sh "pwd"
            sh "ps -ef"
          }
@@ -50,7 +50,7 @@ pipeline {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
-                  sleep 2
+                  sleep 1
                   echo "end runing......"
                }
             }
