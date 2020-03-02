@@ -9,12 +9,14 @@ pipeline {
             sh "ls"
             sh "ls -l"
             echo "打印长度。。。"
-            sh "mkdir test.txt"
-            sh "cat test.txt"
+            sh "touch filename.txt"
+            sh "ls"
+            //sh "cd /var/jenkins_home/workspace/test001-01"
+            sh "cat filename.txt"
             sleep 1
             echo 'two......'
             sh "pwd"
-            sh "mkdir ONES-Devops"
+            sh "mkdir ONES-Devops2"
             sh "ls"
             sh "ls -l"
             echo "打印长度。。。"
