@@ -7,6 +7,9 @@ pipeline {
          }
       }
       stage('单元测试0010'){
+         when {
+             branch 'Newmaster2'
+         }
          steps {
            echo '单元测试ing....'
            sh "pwd"
