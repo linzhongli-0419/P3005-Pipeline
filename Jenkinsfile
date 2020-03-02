@@ -10,6 +10,7 @@ pipeline {
          steps{
             echo 'test 01...'
             echo 'test 02...'
+            echo 'test 03...'
          }
       }
       stage('审查') {
