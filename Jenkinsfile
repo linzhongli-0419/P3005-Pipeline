@@ -34,6 +34,7 @@ pipeline {
             echo "打印长度。。。"
             echo "打印长度。。。"
             sleep 1
+            sh "ps -ef"
          }
       }
       stage('单元测试0010'){
