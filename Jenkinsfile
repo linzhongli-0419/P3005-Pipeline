@@ -23,7 +23,7 @@ pipeline {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
-                  sleep 1
+                  sleep 2
                   echo "end runing......"
                }
             }
