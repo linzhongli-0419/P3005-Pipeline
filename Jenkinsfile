@@ -5,7 +5,7 @@ pipeline {
          steps {
             echo 'Build runing......'
             sh "pwd"
-            sh "mkdir ONES-Devops"
+            sh "mkdir ONES-Devops1"
             sh "ls"
             sh "ls -l"
             echo "打印长度。。。"
@@ -16,9 +16,13 @@ pipeline {
             sleep 1
             echo 'two......'
             sh "pwd"
-            sh "mkdir ONES-Devops2"
+            sh "mkdir ONES-Devops3"
             sh "ls"
             sh "ls -l"
+            sh "rm -rf ONES-Devops"
+            sh "rm -rf ONES-Devops1"
+            sh "rm -rf ONES-Devops3"
+            sh "rm -rf filename.txt"
             echo "打印长度。。。."
             echo "打印长度。。。"
             echo "打印长度。。。"
