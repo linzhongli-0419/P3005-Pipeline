@@ -9,7 +9,7 @@ pipeline {
       stage('单元测试0010'){
          steps {
            echo '单元测试ing....'
-           sh "pwd"
+           sh "pw"
          }
       }
       stage('Super long name case display, view ONES Devops display juhs') {
