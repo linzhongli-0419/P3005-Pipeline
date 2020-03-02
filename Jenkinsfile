@@ -37,7 +37,7 @@ pipeline {
         }
       }
     }
-  }
+  
     stage('编译,打包') {
       }
       steps {
