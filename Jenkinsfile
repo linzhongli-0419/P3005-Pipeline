@@ -46,7 +46,7 @@ pipeline {
            sh "ps -ef"
          }
       }
-      stage('Super long name case display, view ONES Devops display juhscesasdasdsdasdsadsakkakkkkkakkkkskdkkskdkskdkskdkskdkskdksdkskdkskdkskdkskdkskdkaskdkskdkksdkkskdwkaskdkskdas') {
+      stage('Super long name case display') {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
