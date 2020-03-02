@@ -12,6 +12,22 @@ pipeline {
             sh "mkdir test.txt"
             sh "cat test.txt"
             sleep 1
+            echo 'two......'
+            sh "pwd"
+            sh "mkdir ONES-Devops"
+            sh "ls"
+            sh "ls -l"
+            echo "打印长度。。。"
+            echo "打印长度。。。"
+            echo "打印长度。。。"
+            echo "打印长度。。。"
+            echo "打印长度。。。"
+            echo "打印长度。。。"
+            echo "打印长度。。。"
+            echo "打印长度。。。"
+            echo "打印长度。。。"
+            echo "打印长度。。。"
+            sleep 1
          }
       }
       stage('单元测试0010'){
