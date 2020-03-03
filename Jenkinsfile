@@ -18,13 +18,13 @@ pipeline {
             echo 'runing......'
          }
       }
-      stage('Test environment'){
+      stage('Code compilation'){
          steps {
            sh "pppppp"
            echo "runing master"
          }
       }
-      stage('Test environment'){
+      stage('Test runing'){
          when {
             branch 'master'
          }
@@ -33,7 +33,7 @@ pipeline {
            echo "runing master"
          }
       }
-      stage('Super long name case display') {
+      stage('Deploy ending') {
          environment {Description="This is "}
          steps{
             script{
