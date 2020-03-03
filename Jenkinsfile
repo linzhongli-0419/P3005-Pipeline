@@ -41,7 +41,7 @@ pipeline {
                   echo "${Description}${BranchName}"
                   sleep 30
                   sh "ps -ef"
-               }
+               }}
             }
          }
       }
