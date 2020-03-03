@@ -6,6 +6,7 @@ pipeline {
    stages {
       stage('Start build') {
          steps {
+            sh 'pwd'
             dir('/var/jenkins_home/workspace') {
                sh 'pwd'
          }
@@ -26,7 +27,7 @@ pipeline {
          }
       }
       stage('Super long name case display') {
-         environment {Description="This is"}
+         environment {Description="This is "}
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
