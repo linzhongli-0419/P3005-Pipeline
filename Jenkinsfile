@@ -22,7 +22,7 @@ pipeline {
          steps {
            echo "This is Codeing......"
            sh "ls -l"
-           sh "pppppp"
+           //sh "pwd"
            echo "runing master"
          }
       }
