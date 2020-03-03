@@ -20,7 +20,7 @@ pipeline {
          steps {
            echo "This is Codeing......"
            sh "ls -l"
-           //sh "pwd"
+           sh "ddddd"
            echo "runing master"
          }
       }
@@ -41,7 +41,7 @@ pipeline {
                   echo "${Description}${BranchName}"
                   sleep 30
                   sh "ps -ef"
-               }}
+               }
             }
          }
       }
