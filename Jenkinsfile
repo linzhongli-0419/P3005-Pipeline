@@ -7,7 +7,7 @@ pipeline {
       stage('Start build') {
          steps {
             sh 'pwd'
-            sleep 15
+            sleep 10
             dir('/var/jenkins_home/workspace') {
                sh 'pwd'
             }
