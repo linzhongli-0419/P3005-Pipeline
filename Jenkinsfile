@@ -26,8 +26,8 @@ pipeline {
          }
       }
       stage('Super long name case display') {
+         environment {Description="This is"}
          steps{
-            environment {Description="This is"}
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   sleep 1
