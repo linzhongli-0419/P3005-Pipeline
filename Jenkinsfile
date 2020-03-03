@@ -31,9 +31,11 @@ pipeline {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
-                  sleep 1
+                  sleep 15
                   sh "ps -ef"
+                  sleep 15
                   echo "${Description}${BranchName}"
+                  sleep 15
                }
             }
          }
