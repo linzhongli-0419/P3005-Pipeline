@@ -12,8 +12,8 @@ pipeline {
                sh 'pwd'
             }
             echo 'Build runing'
-            sh "ps -a"
             echo 'runing......'
+            sh "ps -a"
          }
       }
       stage('Code compilation'){
@@ -38,9 +38,9 @@ pipeline {
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
-                  sh "ps -ef"
-                  sleep 30
                   echo "${Description}${BranchName}"
+                  sleep 30
+                  sh "ps -ef"
                }
             }
          }
