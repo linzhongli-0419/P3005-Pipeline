@@ -20,6 +20,8 @@ pipeline {
       }
       stage('Code compilation'){
          steps {
+           echo "This is Codeing......"
+           sh "ls -l"
            sh "pppppp"
            echo "runing master"
          }
