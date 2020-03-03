@@ -2,7 +2,6 @@
 # 随便提交
 import datetime
 
-
 def opt_date(number):
     new_time = datetime.datetime.now()
     if isinstance(number, int):
