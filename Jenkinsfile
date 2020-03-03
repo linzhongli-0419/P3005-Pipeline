@@ -20,7 +20,7 @@ pipeline {
          steps {
            echo "This is Codeing......"
            sh "ls -l"
-           sh "ddddd"
+           sh "ddd"
            echo "runing master"
          }
       }
