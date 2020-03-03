@@ -6,27 +6,33 @@ pipeline {
    stages {
       stage('Start build') {
          steps {
-            echo 'Build runing......'
+            dir('/var/jenkins_home/workspace') {
+               sh 'pwd'
+         }
+            echo 'Build runing'
             sleep 30
             sh "ps -a"
+            sleep 15
+            echo 'runing......'
          }
       }
-      stage('单元测试ing'){
+      stage('Select test environment'){
          when {
             branch 'master'
          }
          steps {
-           sh "pwd"
-           echo ""
+           sh "ls"
+           echo "runing master"
          }
       }
       stage('Super long name case display') {
          steps{
+            environment {Description="This is"}
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   sleep 1
                   sh "ps -ef"
-                  echo "${BranchName}"
+                  echo "${Description}${BranchName}"
                }
             }
          }
