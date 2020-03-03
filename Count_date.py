@@ -12,4 +12,4 @@ def opt_date(number):
         return old_date_str
 
 if __name__ == '__main__':
-    opt_date(3)
+    opt_date(22)
