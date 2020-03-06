@@ -7,7 +7,7 @@ pipeline {
       stage('Start build') {
          steps {
             sh 'pwd'
-            //sleep 10
+            sleep 20
             dir('/var/jenkins_home/workspace') {
                sh 'pwd'
             }
@@ -19,7 +19,7 @@ pipeline {
       stage('Code compilation'){
          steps {
            echo "This is Codeing......"
-           //sleep 10
+           sleep 20
            sh "ls -l"
            sh "pwd"
            echo "runing master"
@@ -40,7 +40,7 @@ pipeline {
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   echo "${Description}${BranchName}"
-                  //sleep 1
+                  sleep 10
                   sh "ps -ef"
                }
             }
