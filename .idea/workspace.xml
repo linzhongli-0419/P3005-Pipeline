@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a190d58c-ffb4-42f1-bf9d-1d35f65a9c00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" afterDir="false" />
