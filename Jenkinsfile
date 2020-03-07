@@ -27,7 +27,7 @@ pipeline {
       }
       stage('Test runing'){
          when {
-            branch 'maste'
+            branch 'master'
          }
          steps {
            sh "ls"
