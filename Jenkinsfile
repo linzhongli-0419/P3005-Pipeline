@@ -33,8 +33,8 @@ pipeline {
          steps {
            sh "ls"
            echo "runing master"
-         }}
-      }
+         }
+      }}
       stage('Deploy ending') {
          environment {Description="This is "}
          steps{
