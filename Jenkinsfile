@@ -22,7 +22,7 @@ pipeline {
            echo "This is Codeing......"
            sleep 20
            sh "ls -l"
-           sh "aaaaaa"
+           sh "aaaaaaa"
            echo "runing master"
          }
       }
@@ -34,7 +34,7 @@ pipeline {
            sh "ls"
            echo "runing master"
          }
-      }}
+      }
       stage('Deploy ending') {
          environment {Description="This is "}
          steps{
