@@ -3,7 +3,6 @@ pipeline {
    environment {
        BranchName="Newmaster2"
    }
-   sleep 20
    stages {
       stage('Start build') {
          steps {
