@@ -2,9 +2,6 @@ pipeline {
     agent any
     stages {
        stage('Build') {
-           when {
-               branch "master"
-           }
              steps {
                 echo '编译'
             }
@@ -12,6 +9,9 @@ pipeline {
        stage('代码编译') {
           parallel {
              stage('代码分析'){
+                when {
+                   branch "master"
+              }
                 steps {
                    echo '代码分析ing...'
                    echo '代码分析完成...'
@@ -27,7 +27,7 @@ pipeline {
        }
        stage('Deploy') {
             steps {
-                echo '111Deploying....'
+                echo 'Deploying....'
             }
         }
     }
