@@ -7,12 +7,12 @@ pipeline {
       stage('Start build') {
          steps {
             echo 'pwd'
-            sleep 360
-            sleep 360
+            //sleep 360
+            //sleep 360
             dir('/var/jenkins_home/workspace') {
                sh 'ps'
             }
-            sleep 15
+            //sleep 15
             echo 'Build runing'
             sh "ps -a"
          }
@@ -41,7 +41,7 @@ pipeline {
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   echo "${Description}${BranchName}"
-                  sleep 15
+                  //sleep 15
                   s "pwd"
                }
             }
