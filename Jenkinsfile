@@ -3,6 +3,7 @@ pipeline {
     stages {
        stage('Build') {
              steps {
+                sleep 15
                 echo '编译'
             }
         }
@@ -13,6 +14,7 @@ pipeline {
                    branch 'master'
                 }
                 steps {
+                   sleep 15
                    echo '代码分析ing...'
                    echo '代码分析完成...'
                   }
