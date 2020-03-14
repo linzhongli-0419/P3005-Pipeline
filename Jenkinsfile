@@ -19,7 +19,7 @@ pipeline {
               }
               stage('单元测试'){
                  steps {
-                   echo '单元测试ing....'
+                   echo '测试ing....'
                    echo '单元测试完成.....'
                    }
                }
