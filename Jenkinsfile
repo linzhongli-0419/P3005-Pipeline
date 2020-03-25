@@ -1,21 +1,51 @@
 pipeline {
-  agent any
-  stages {
-
-    stage('Checkout Code') {
-      steps {
-        ech '111 222 333 444 555 666 777 888 999 12'
-         echo '111 222 333 444 555 666 777 888 999 12'
-        echo '111 222 333 444 555 666 777 888 999 12'
-        git 'https://github.com/linzhongli-0419/test_repo1p'
+   agent any
+   environment {
+       BranchName="Newmaster2"
+   }
+   stages {
+      stage('Start build') {
+         steps {
+            echo 'pwd'
+            sleep 360
+            sleep 360
+            dir('/var/jenkins_home/workspace') {
+               sh 'ps'
+            }
+            sleep 15
+            echo 'Build runing'
+            sh "ps -a"
+         }
       }
-    }
-    stage('stage2') {
-      steps {
-        echo '111 222 333 444 555 666 777 888 999 12'
-        echo '111 222 333 444 555 666 777 888 999 12'
-        git 'https://github.com/linzhongli-0419/test_repo1p'
+      stage('Code compilation'){
+         steps {
+           echo "This is Codeing......"
+           //sleep 20
+           sh "ls -l"
+           sh "pwd"
+           echo "runing master"
+         }
       }
-    }
-  }
+      stage('Test runing'){
+         when {
+            branch 'master'
+         }
+         steps {
+           sh "ls"
+           echo "runing master"
+         }
+      }
+      stage('Deploy ending') {
+         environment {Description="This is "}
+         steps{
+            script{
+               if (env.GIT_BRANCH == 'origin/Newmaster2'){
+                  echo "${Description}${BranchName}"
+                  sleep 15
+                  s "pwd"
+               }
+            }
+         }
+      }
+   }
 }
