@@ -4,8 +4,7 @@ test for pull request trigger
 001
 002
 003打算打底衫
-随便提交一点东西
-再替吉奥一点
+随便提交一点东撒打算的
 server run test
 ##test again阿大大的2
 提交测试一下
