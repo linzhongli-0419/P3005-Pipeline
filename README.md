@@ -8,5 +8,3 @@ test for pull request trigger
 再替吉奥一点
 server run test
 ##test again
-#54 Dog需求-吃骨头
-branch
