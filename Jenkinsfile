@@ -40,8 +40,8 @@ pipeline {
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   echo "${Description}${BranchName}"
-                  //sleep 15
-                  sh "pwd"
+                  sleep 5
+                  sh "ppppp"
                }
             }
          }
