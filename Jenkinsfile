@@ -8,7 +8,7 @@ pipeline {
          steps {
             echo 'pwd'
             //sleep 360
-            //sleep 360
+            sleep 15
             //dir('/var/jenkins_home/workspace') {
                //sh 'ps'
             //}
@@ -40,8 +40,8 @@ pipeline {
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   echo "${Description}${BranchName}"
-                  sleep 5
-                  sh "ppppp"
+                  sleep 15
+                  sh "pwd"
                }
             }
          }
