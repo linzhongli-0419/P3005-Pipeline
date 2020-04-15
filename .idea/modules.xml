@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/TestDveOps.iml" filepath="$PROJECT_DIR$/.idea/TestDveOps.iml" />
       <module fileurl="file://$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" filepath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Practice/ONESapi/update/.idea/update.iml" filepath="$PROJECT_DIR$/../Practice/ONESapi/update/.idea/update.iml" />
     </modules>
   </component>
 </project>
