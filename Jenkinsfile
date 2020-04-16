@@ -19,7 +19,7 @@ pipeline {
       stage('Code compilation'){
          steps {
            echo "This is Codeing......"
-           //sleep 30
+           sleep 30
            sh "ls -l"
            sh "pwd"
            echo "runing master"
@@ -30,7 +30,7 @@ pipeline {
             branch 'master'
          }
          steps {
-           //sh "ls"
+           sleep 15
            echo "runing master"
          }
       }
