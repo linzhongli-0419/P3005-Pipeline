@@ -30,7 +30,7 @@ pipeline {
             branch 'master'
          }
          steps {
-           //sleep 15
+           sleep 15
            echo "runing master"
          }
       }
