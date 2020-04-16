@@ -4,7 +4,7 @@ pipeline {
        BranchName="Newmaster2"
    }
    stages {
-      stage('Start build') {
+      aaastage('Start build') {
          steps {
             echo 'pwd'
             //sleep 360
