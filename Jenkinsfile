@@ -1,10 +1,10 @@
 pipeline {
-   //agent any
-   //environment {
+   agent any
+   environment {
        BranchName="Newmaster2"
    }
    stages {
-      stage('Start build') {
+      ttttttstage('Start build') {
          steps {
             echo 'pwd'
             //sleep 360
