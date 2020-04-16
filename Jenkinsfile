@@ -19,7 +19,7 @@ pipeline {
       stage('Code compilation'){
          steps {
            echo "This is Codeing......"
-           //sleep 30
+           sleep 50
            sh "ls -l"
            sh "pwd"
            echo "runing master"
@@ -40,7 +40,7 @@ pipeline {
             script{
                if (env.GIT_BRANCH == 'origin/Newmaster2'){
                   echo "${Description}${BranchName}"
-                  //sleep 15
+                  sleep 15
                   sh "ls"
                }
             }
