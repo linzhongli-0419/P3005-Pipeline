@@ -30,7 +30,7 @@ pipeline {
             branch 'master'
          }
          steps {
-           sh "ls"
+           //sh "ls"
            echo "runing master"
          }
       }
