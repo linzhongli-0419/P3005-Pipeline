@@ -20,7 +20,7 @@ pipeline {
          steps {
            echo "This is Codeing......"
            //sleep 15
-           sh "ls -l"
+           //sh "ls -l"
            sh "pwd"
            echo "runing master"
          }
