@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/TestDveOps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestDveOps.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../robot/wujian/robot/.idea/workspace.xml" afterDir="false" />
@@ -16,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../GitLabDevOps-test" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XeVmXDr9Nfxca4b2CrghB4kgCU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

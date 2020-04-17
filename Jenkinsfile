@@ -4,7 +4,7 @@ pipeline {
        BranchName="Newmaster2"
    }
    stages {
-      aaastage('Start build') {
+      stage('Start build') {
          steps {
             echo 'pwd'
             //sleep 360
@@ -21,7 +21,7 @@ pipeline {
            echo "This is Codeing......"
            //sleep 15
            //sh "ls -l"
-           sh "pwd"
+           //sh "pwd"
            echo "runing master"
          }
       }
