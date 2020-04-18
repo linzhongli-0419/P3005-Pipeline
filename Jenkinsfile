@@ -21,7 +21,7 @@ pipeline {
            echo "This is Codeing......"
            //sleep 15
            //sh "ls -l"
-           sh "pwd"
+           //sh "pwd"
            echo "runing master"
          }
       }
