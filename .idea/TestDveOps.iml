@@ -8,5 +8,8 @@
     <orderEntry type="module" module-name="update" />
     <orderEntry type="module" module-name="DevOps-test" />
     <orderEntry type="module" module-name="GitLabDevOps-test" />
+    <orderEntry type="module" module-name="wecha-reminder" />
+    <orderEntry type="module" module-name="master" />
+    <orderEntry type="module" module-name="wechat-reminder" />
   </component>
 </module>

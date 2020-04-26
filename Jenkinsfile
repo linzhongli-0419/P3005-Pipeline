@@ -16,7 +16,7 @@ pipeline {
             sh "ps -a"
          }
       }
-      stage('Code compilation'){
+      stage('Code.......'){
          steps {
            echo "This is Codeing......"
            //sleep 15

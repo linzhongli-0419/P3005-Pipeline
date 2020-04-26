@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/TestDveOps.iml" filepath="$PROJECT_DIR$/.idea/TestDveOps.iml" />
       <module fileurl="file://$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" filepath="$PROJECT_DIR$/../robot/wujian/robot/.idea/master.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Practice/ONESapi/update/.idea/update.iml" filepath="$PROJECT_DIR$/../Practice/ONESapi/update/.idea/update.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../robot/desk-issue-requirement/wecha-reminder/.idea/wecha-reminder.iml" filepath="$PROJECT_DIR$/../robot/desk-issue-requirement/wecha-reminder/.idea/wecha-reminder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder/.idea/wechat-reminder.iml" filepath="$PROJECT_DIR$/../robot/desk-issue/wecha-reminder/ones-tools/wechat-reminder/.idea/wechat-reminder.iml" />
     </modules>
   </component>
 </project>
